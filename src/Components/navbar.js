@@ -27,7 +27,7 @@ function Navbar() {
                     Search
                 </button>
             </div>
-            <div>
+            <div> 
                 {console.log(data)}
                 {data.map(entry =>
                     // console.log(entry) {`${entry.winLose}`}

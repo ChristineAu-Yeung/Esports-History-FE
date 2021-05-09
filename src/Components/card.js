@@ -12,7 +12,8 @@ function Card(props) {
 
     const gameMode = {
         'ARAM': HowlingAbyss,
-        'CLASSIC': SummonerRift
+        'CLASSIC': SummonerRift,
+        'ONEFORALL': SummonerRift
     }
 
     const gameRole = {

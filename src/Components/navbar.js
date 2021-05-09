@@ -8,10 +8,12 @@ function Navbar() {
     const [username, setUserName] = useState("");
     const [data, setData] = useState([]);
     const handleSearch = async (value) => {
-        console.log(value)
+        if(!value || value === "") return alert("Please enter a valid username"); 
+        // console.log(value)
         let url = `http://localhost:5000?summonerName=${value}`
         const res = await axios.get(url)
-        console.log(res)
+        // console.log(res)
+        if(res.status !== 200 || !Array.isArray(res.data)) return alert("Please enter a valid username"); 
         setData(res.data)
     }
 
@@ -20,15 +22,14 @@ function Navbar() {
             <div className={'title'}>
                 Esports History
             </div>
-            <div>
-                <textarea placeholder="Enter username" value={username} onChange={e => setUserName(e.target.value)}>
+            <div className={'userName'}>
+                <textarea className={'userTextArea'} placeholder="Enter username" value={username} onChange={e => setUserName(e.target.value)}>
                 </textarea>
-                <button onClick={(e) => handleSearch(username)}>
-                    Search
+                <button className={'searchButton'} value = 'Search' onClick={(e) => handleSearch(username)}>
+                   Search
                 </button>
             </div>
             <div> 
-                {console.log(data)}
                 {data.map(entry =>
                     // console.log(entry) {`${entry.winLose}`}
                     <Card data={entry}/>

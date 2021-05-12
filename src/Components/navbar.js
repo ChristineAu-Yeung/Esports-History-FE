@@ -20,7 +20,7 @@ function Navbar() {
     return (
         <div className={'navbar'}>
             <div className={'title'}>
-                Esports History
+                Esports History <center className={'nameLeague'}>League of Legends</center>
             </div>
             <div className={'userName'}>
                 <textarea className={'userTextArea'} placeholder="Enter username" value={username} onChange={e => setUserName(e.target.value)}>

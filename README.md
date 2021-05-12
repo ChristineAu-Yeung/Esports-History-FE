@@ -27,7 +27,7 @@ pip install Flask
    { "apiKey" : "ENTER YOUR API" }
    ```
    
-### Usage
+## Usage
 
 Enter an active League of Legends username and click Search to display the match history<br>
 

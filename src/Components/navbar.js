@@ -10,7 +10,7 @@ function Navbar() {
     const handleSearch = async (value) => {
         if(!value || value === "") return alert("Please enter a valid username"); 
         // console.log(value)
-        let url = `http://3.20.196.226?summonerName=${value}`
+        let url = `https://3.20.196.226?summonerName=${value}`
         const res = await axios.get(url)
         // console.log(res)
         if(res.status !== 200 || !Array.isArray(res.data)) return alert("Please enter a valid username"); 

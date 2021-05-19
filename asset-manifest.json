@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Esports-History-FE/static/css/main.9782397e.chunk.css",
-    "main.js": "/Esports-History-FE/static/js/main.a95a0b74.chunk.js",
-    "main.js.map": "/Esports-History-FE/static/js/main.a95a0b74.chunk.js.map",
+    "main.css": "/Esports-History-FE/static/css/main.76a65d14.chunk.css",
+    "main.js": "/Esports-History-FE/static/js/main.477101bb.chunk.js",
+    "main.js.map": "/Esports-History-FE/static/js/main.477101bb.chunk.js.map",
     "runtime-main.js": "/Esports-History-FE/static/js/runtime-main.88017bdf.js",
     "runtime-main.js.map": "/Esports-History-FE/static/js/runtime-main.88017bdf.js.map",
     "static/css/2.800be05e.chunk.css": "/Esports-History-FE/static/css/2.800be05e.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.c686d855.chunk.js.map": "/Esports-History-FE/static/js/2.c686d855.chunk.js.map",
     "index.html": "/Esports-History-FE/index.html",
     "static/css/2.800be05e.chunk.css.map": "/Esports-History-FE/static/css/2.800be05e.chunk.css.map",
-    "static/css/main.9782397e.chunk.css.map": "/Esports-History-FE/static/css/main.9782397e.chunk.css.map",
+    "static/css/main.76a65d14.chunk.css.map": "/Esports-History-FE/static/css/main.76a65d14.chunk.css.map",
     "static/js/2.c686d855.chunk.js.LICENSE.txt": "/Esports-History-FE/static/js/2.c686d855.chunk.js.LICENSE.txt",
     "static/media/Howling_abyss_icon.48811150.png": "/Esports-History-FE/static/media/Howling_abyss_icon.48811150.png",
     "static/media/Jungle_icon.8c1573c5.png": "/Esports-History-FE/static/media/Jungle_icon.8c1573c5.png",
@@ -21,7 +21,7 @@
     "static/js/runtime-main.88017bdf.js",
     "static/css/2.800be05e.chunk.css",
     "static/js/2.c686d855.chunk.js",
-    "static/css/main.9782397e.chunk.css",
-    "static/js/main.a95a0b74.chunk.js"
+    "static/css/main.76a65d14.chunk.css",
+    "static/js/main.477101bb.chunk.js"
   ]
 }

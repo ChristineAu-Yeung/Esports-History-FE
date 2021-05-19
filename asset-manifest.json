@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Esports-History-FE/static/css/main.76a65d14.chunk.css",
-    "main.js": "/Esports-History-FE/static/js/main.477101bb.chunk.js",
-    "main.js.map": "/Esports-History-FE/static/js/main.477101bb.chunk.js.map",
+    "main.js": "/Esports-History-FE/static/js/main.d98a8358.chunk.js",
+    "main.js.map": "/Esports-History-FE/static/js/main.d98a8358.chunk.js.map",
     "runtime-main.js": "/Esports-History-FE/static/js/runtime-main.88017bdf.js",
     "runtime-main.js.map": "/Esports-History-FE/static/js/runtime-main.88017bdf.js.map",
     "static/css/2.800be05e.chunk.css": "/Esports-History-FE/static/css/2.800be05e.chunk.css",
@@ -22,6 +22,6 @@
     "static/css/2.800be05e.chunk.css",
     "static/js/2.c686d855.chunk.js",
     "static/css/main.76a65d14.chunk.css",
-    "static/js/main.477101bb.chunk.js"
+    "static/js/main.d98a8358.chunk.js"
   ]
 }
